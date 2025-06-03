@@ -1,0 +1,23 @@
+<h2>Edit Student</h2>
+<form method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" value="<?= htmlspecialchars($student['name']) ?>" required><br><br>
+
+    <label>Class/Division:</label>
+    <input type="text" name="class_division" value="<?= htmlspecialchars($student['class_division']) ?>" required><br><br>
+
+    <label>Roll Number:</label>
+    <input type="text" name="roll_number" value="<?= htmlspecialchars($student['roll_number']) ?>" required><br><br>
+    
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <a href="/">
+            Back
+        </a>
+
+        <button type="submit">Update</button>
+    </div>
+
+    
+
+</form>
+
