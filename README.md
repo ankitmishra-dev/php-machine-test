@@ -18,7 +18,7 @@ This is a simple **CRUD (Create, Read, Update, Delete)** application built with 
 
 ## Database Setup
 
-1. Create a MySQL database (e.g., `student_crud`).
+1. Create a MySQL database (e.g., `students_crud`).
 2. Run the following SQL to create the `students` table:
 
 ```sql
